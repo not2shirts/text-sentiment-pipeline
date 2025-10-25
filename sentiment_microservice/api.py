@@ -51,3 +51,8 @@ async def predict_sentiment(text: TextInput):
         "score": score,
         "confidence": confidence,
     }
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
