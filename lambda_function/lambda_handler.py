@@ -11,7 +11,7 @@ TABLE_NAME = os.environ.get("DYNAMODB_TABLE_NAME")
 
 
 MICROSERVICE_URL = os.environ.get(
-    "MICROSERVICE_URL", "http://54.165.132.105:8080/sentiment"
+    "MICROSERVICE_URL"
 )
 
 
